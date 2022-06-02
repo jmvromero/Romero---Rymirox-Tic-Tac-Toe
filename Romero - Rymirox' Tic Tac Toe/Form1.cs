@@ -11,5 +11,10 @@ namespace Romero___Rymirox__Tic_Tac_Toe
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
