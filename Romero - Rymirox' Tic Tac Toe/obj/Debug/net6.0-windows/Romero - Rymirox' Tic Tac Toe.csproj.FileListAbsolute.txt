@@ -1,0 +1,18 @@
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\bin\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.exe
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\bin\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.deps.json
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\bin\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.runtimeconfig.json
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\bin\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.dll
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\bin\Debug\net6.0-windows\ref\Romero - Rymirox' Tic Tac Toe.dll
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\bin\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.pdb
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.csproj.AssemblyReference.cache
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero___Rymirox__Tic_Tac_Toe.Form1.resources
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero___Rymirox__Tic_Tac_Toe.Properties.Resources.resources
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.csproj.GenerateResource.cache
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.AssemblyInfoInputs.cache
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.AssemblyInfo.cs
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.csproj.CoreCompileInputs.cache
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.dll
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\ref\Romero - Rymirox' Tic Tac Toe.dll
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.pdb
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.genruntimeconfig.cache
