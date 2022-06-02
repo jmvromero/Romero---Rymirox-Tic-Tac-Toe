@@ -59,7 +59,6 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Hello, Player!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -69,7 +68,7 @@
             this.label2.ForeColor = System.Drawing.Color.LavenderBlush;
             this.label2.Location = new System.Drawing.Point(218, 186);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(278, 50);
+            this.label2.Size = new System.Drawing.Size(276, 49);
             this.label2.TabIndex = 1;
             this.label2.Text = "Welcome to";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -82,9 +81,10 @@
             this.label3.ForeColor = System.Drawing.Color.LavenderBlush;
             this.label3.Location = new System.Drawing.Point(120, 236);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(489, 50);
+            this.label3.Size = new System.Drawing.Size(480, 49);
             this.label3.TabIndex = 2;
             this.label3.Text = "Rymirox\' Tic Tac Toe";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -146,6 +146,7 @@
             this.button2.TabIndex = 7;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // pictureBox1
             // 

@@ -7,14 +7,22 @@ namespace Romero___Rymirox__Tic_Tac_Toe
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+
+            InitalScreenPlayForm1 initalScreenPlayForm1 = new InitalScreenPlayForm1();
+            initalScreenPlayForm1.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }
