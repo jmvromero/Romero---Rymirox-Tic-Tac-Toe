@@ -6,5 +6,10 @@ namespace Romero___Rymirox__Tic_Tac_Toe
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
