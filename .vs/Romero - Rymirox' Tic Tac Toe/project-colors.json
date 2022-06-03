@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9f591a1a-060e-4849-aca7-8941ef61f6d2": {
+      "ProjectGuid": "9f591a1a-060e-4849-aca7-8941ef61f6d2",
+      "DisplayName": "Romero - Rymirox' Tic Tac Toe",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

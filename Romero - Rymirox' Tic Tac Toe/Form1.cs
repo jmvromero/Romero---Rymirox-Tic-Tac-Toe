@@ -15,11 +15,6 @@ namespace Romero___Rymirox__Tic_Tac_Toe
             initalScreenPlayForm1.Show();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
