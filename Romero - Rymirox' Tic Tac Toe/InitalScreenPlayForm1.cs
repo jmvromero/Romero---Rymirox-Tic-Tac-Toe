@@ -358,36 +358,122 @@ namespace Romero___Rymirox__Tic_Tac_Toe
             String input8 = txtbx8.Text; 
             String input9 = txtbx9.Text;
 
-            //horizontalpatternforwinners
-            //for input1, input2, and input 3
-            if (input1 == "X" && input2 == "X" && input3 == "X")
+            //patternsinwinning
+            Boolean willExecuteproperly = true;
+            if (willExecuteproperly)
             {
-                this.Hide();
-                MessageBox.Show("Player X Wins");
-                ContinueOptions form2 = new ContinueOptions();
-                form2.Show();
-            }
-            else if (input1 == "O" && input2 == "O" && input1 == "O" ) 
-            {
-                this.Hide();
-                MessageBox.Show("Player O Wins");
-                ContinueOptions form2 = new ContinueOptions();
-                form2.Show();
+                //horizontalpatternforwinners
+                //for input1, input2, and input3
+                bool h1 = input1 == input2 && input3 == input2;
+                Boolean willExecute = h1;
+                if (willExecute)
+                {
+                    if (input1 == "X" && input2 == "X" && input3 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player X Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input1 == "O" && input2 == "O" && input1 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                }
+
+                //for input4, input5, and input6
+                bool h2 = input4 == input5 && input6 == input5;
+                Boolean willExecute2 = h2;
+                if (willExecute2)
+                {
+                    if (input4 == "X" && input5 == "X" && input6 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player X Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input4 == "O" && input5 == "O" && input6 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                }
+
+                //for input7, input8, and input9
+                bool h3 = input7 == input8 && input9 == input8;
+                Boolean willExecute3 = h3;
+                if (willExecute3)
+                {
+                    if (input7 == "X" && input8 == "X" && input9 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player X Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input7 == "O" && input8 == "O" && input9 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                }
+
+                //verticalpatternsforwinners
+                //for input1, input4, and input7
+                bool h4 = input1 == input4 && input7 == input4;
+                Boolean willExecute4 = h4;
+                if (willExecute4)
+                    if (input1 == "X" && input4 == "X" && input7 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player X Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input1 == "O" && input4 == "O" && input7 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+            
+                //for input2, input5, and input8
+                bool h5 = input2 == input5 && input8 == input5;
+                Boolean willExecute5 = h5;
+                if (willExecute5)
+                    if (input2 == "X" && input5 == "X" && input7 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input1 == "O" && input4 == "O" && input7 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
 
             }
-            else if (input4 == "O" && input5 == "O" && input6 == "O")
-            {
-                this.Hide();
-                MessageBox.Show("Player O Wins");
-                ContinueOptions form2 = new ContinueOptions();
-                form2.Show();
-            }
+
             else
             {
                 MessageBox.Show("Try Again");
             }
 
-            
+
+
         }
     }
 }
