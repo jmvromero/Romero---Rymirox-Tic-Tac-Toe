@@ -19,7 +19,7 @@ namespace Romero___Rymirox__Tic_Tac_Toe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            this.Hide();
             InitalScreenPlayForm1 initalScreenPlayForm1 = new InitalScreenPlayForm1();
             initalScreenPlayForm1.Show();
         }
