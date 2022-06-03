@@ -47,7 +47,7 @@
             this.txtbx7 = new System.Windows.Forms.TextBox();
             this.txtbx8 = new System.Windows.Forms.TextBox();
             this.txtbx9 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.results1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // B1
@@ -96,6 +96,7 @@
             this.B4.TabIndex = 2;
             this.B4.Text = "X / O";
             this.B4.UseVisualStyleBackColor = false;
+            this.B4.Click += new System.EventHandler(this.B4_Click);
             // 
             // B5
             // 
@@ -107,6 +108,7 @@
             this.B5.TabIndex = 5;
             this.B5.Text = "X / O";
             this.B5.UseVisualStyleBackColor = false;
+            this.B5.Click += new System.EventHandler(this.B5_Click);
             // 
             // B6
             // 
@@ -118,6 +120,7 @@
             this.B6.TabIndex = 4;
             this.B6.Text = "X / O";
             this.B6.UseVisualStyleBackColor = false;
+            this.B6.Click += new System.EventHandler(this.B6_Click);
             // 
             // B7
             // 
@@ -129,6 +132,7 @@
             this.B7.TabIndex = 8;
             this.B7.Text = "X / O";
             this.B7.UseVisualStyleBackColor = false;
+            this.B7.Click += new System.EventHandler(this.B7_Click);
             // 
             // B8
             // 
@@ -140,6 +144,7 @@
             this.B8.TabIndex = 7;
             this.B8.Text = "X / O";
             this.B8.UseVisualStyleBackColor = false;
+            this.B8.Click += new System.EventHandler(this.B8_Click);
             // 
             // B9
             // 
@@ -151,6 +156,7 @@
             this.B9.TabIndex = 6;
             this.B9.Text = "X / O";
             this.B9.UseVisualStyleBackColor = false;
+            this.B9.Click += new System.EventHandler(this.B9_Click);
             // 
             // txtbx1
             // 
@@ -243,17 +249,18 @@
             this.txtbx9.TabIndex = 17;
             this.txtbx9.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
-            // button1
+            // results1
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.button1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(292, 692);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 34);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Results";
-            this.button1.UseVisualStyleBackColor = false;
+            this.results1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.results1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.results1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.results1.Location = new System.Drawing.Point(292, 692);
+            this.results1.Name = "results1";
+            this.results1.Size = new System.Drawing.Size(140, 34);
+            this.results1.TabIndex = 18;
+            this.results1.Text = "Results";
+            this.results1.UseVisualStyleBackColor = false;
+            this.results1.Click += new System.EventHandler(this.results1_Click);
             // 
             // InitalScreenPlayForm1
             // 
@@ -261,7 +268,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Romero___Rymirox__Tic_Tac_Toe.Properties.Resources._1ccbae11952e748c403b5d98cdb07fab;
             this.ClientSize = new System.Drawing.Size(727, 763);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.results1);
             this.Controls.Add(this.txtbx9);
             this.Controls.Add(this.txtbx8);
             this.Controls.Add(this.txtbx7);
@@ -311,6 +318,6 @@
         private TextBox txtbx7;
         private TextBox txtbx8;
         private TextBox txtbx9;
-        private Button button1;
+        private Button results1;
     }
 }

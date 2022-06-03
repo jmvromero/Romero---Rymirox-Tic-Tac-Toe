@@ -19,5 +19,10 @@ namespace Romero___Rymirox__Tic_Tac_Toe
         {
             this.Close();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
