@@ -74,7 +74,22 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 MessageBox.Show("Try Again");
                 B2.Enabled = true;
             }
-         
+
+            //for turns
+            Boolean willExecute2 = input2 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
+
+            Boolean willExecute3 = input2 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
+            }
+
         }
 
         private void B3_Click(object sender, EventArgs e)
@@ -95,8 +110,21 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 txtbx3.Enabled = true;
                 MessageBox.Show("Try Again");
                 B3.Enabled = true;
+            }
 
+            //for turns
+            Boolean willExecute2 = input3 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
 
+            Boolean willExecute3 = input3 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
             }
 
         }
@@ -120,6 +148,21 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 MessageBox.Show("Try Again");
                 B4.Enabled = true;
             }
+
+            //for turns
+            Boolean willExecute2 = input4 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
+
+            Boolean willExecute3 = input4 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
+            }
         }
 
         private void B5_Click(object sender, EventArgs e)
@@ -140,6 +183,21 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 txtbx5.Enabled = true;
                 MessageBox.Show("Try Again");
                 B5.Enabled = true;
+            }
+
+            //for turns
+            Boolean willExecute2 = input5 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
+
+            Boolean willExecute3 = input5 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
             }
         }
 
@@ -163,6 +221,21 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 B6.Enabled = true;
             }
 
+            //for turns
+            Boolean willExecute2 = input6 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
+
+            Boolean willExecute3 = input6 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
+            }
+
         }
 
         private void B7_Click(object sender, EventArgs e)
@@ -183,6 +256,21 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 txtbx7.Enabled = true;
                 MessageBox.Show("Try Again");
                 B7.Enabled = true;
+            }
+
+            //for turns
+            Boolean willExecute2 = input7 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
+
+            Boolean willExecute3 = input7 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
             }
         }
 
@@ -205,6 +293,21 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 MessageBox.Show("Try Again");
                 B8.Enabled = true;
             }
+
+            //for turns
+            Boolean willExecute2 = input8 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
+
+            Boolean willExecute3 = input8 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
+            }
         }
 
         private void B9_Click(object sender, EventArgs e)
@@ -225,6 +328,21 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                 txtbx9.Enabled = true;
                 MessageBox.Show("Try Again");
                 B9.Enabled = true;
+            }
+
+            //for turns
+            Boolean willExecute2 = input9 == "X";
+            if (willExecute2)
+            {
+                //true
+                MessageBox.Show("Player O Turn");
+            }
+
+            Boolean willExecute3 = input9 == "O";
+            if (willExecute3)
+            {
+                //true
+                MessageBox.Show("Player X Turn");
             }
         }
 
