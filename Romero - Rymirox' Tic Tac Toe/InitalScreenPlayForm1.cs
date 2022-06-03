@@ -358,7 +358,7 @@ namespace Romero___Rymirox__Tic_Tac_Toe
             String input8 = txtbx8.Text; 
             String input9 = txtbx9.Text;
 
-            //patternsinwinning
+            //patternsforwinning
             Boolean willExecuteproperly = true;
             if (willExecuteproperly)
             {
@@ -445,7 +445,7 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                         ContinueOptions form2 = new ContinueOptions();
                         form2.Show();
                     }
-            
+
                 //for input2, input5, and input8
                 bool h5 = input2 == input5 && input8 == input5;
                 Boolean willExecute5 = h5;
@@ -453,7 +453,7 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                     if (input2 == "X" && input5 == "X" && input7 == "X")
                     {
                         this.Hide();
-                        MessageBox.Show("Player O Wins");
+                        MessageBox.Show("Player X Wins");
                         ContinueOptions form2 = new ContinueOptions();
                         form2.Show();
                     }
@@ -465,14 +465,78 @@ namespace Romero___Rymirox__Tic_Tac_Toe
                         form2.Show();
                     }
 
+                //for input3, input6, and input9
+                bool h6 = input3 == input6 && input9 == input6;
+                Boolean willExecute6 = h6;
+                if (willExecute6)
+                    if (input3 == "X" && input6 == "X" && input9 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player X Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input3 == "O" && input6 == "O" && input9 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+
+                //fordiagonal
+                //for input1, input5, and input9
+                bool h7 = input1 == input5 && input9 == input5;
+                Boolean willExecute7 = h7;
+                if (willExecute7)
+                    if (input1 == "X" && input5 == "X" && input9 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player X Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input1 == "O" && input5 == "O" && input9 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+
+                //for input3, input5, and input7
+                bool h8 = input3 == input5 && input7 == input5;
+                Boolean willExecute8 = h8;
+                if (willExecute8)
+                    if (input3 == "X" && input5 == "X" && input7 == "X")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player X Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else if (input3 == "O" && input5 == "O" && input7 == "O")
+                    {
+                        this.Hide();
+                        MessageBox.Show("Player O Wins");
+                        ContinueOptions form2 = new ContinueOptions();
+                        form2.Show();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Try Again");
+                    }
+
+                //fordraw
+                bool h9 = input1 != input2 && input1 != input3 && input1 != input4 && input1 != input5 && input1 != input6 && input1 != input7 && input1 != input8 && input1 != input9 && input2 != input3 && input3 != input4 && input4 != input5 && input5 != input6 && input6 != input7 && input7 != input8 && input8 != input9;
+                Boolean willExecute9 = h9;
+                if (willExecute9)
+                {
+                    MessageBox.Show("Draw");
+                }
+
+               
             }
-
-            else
-            {
-                MessageBox.Show("Try Again");
-            }
-
-
 
         }
     }
