@@ -41,6 +41,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -91,7 +92,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Pink;
-            this.label4.Location = new System.Drawing.Point(12, 733);
+            this.label4.Location = new System.Drawing.Point(12, 736);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(120, 18);
             this.label4.TabIndex = 3;
@@ -103,7 +104,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Pink;
-            this.label5.Location = new System.Drawing.Point(428, 732);
+            this.label5.Location = new System.Drawing.Point(432, 736);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(283, 18);
             this.label5.TabIndex = 4;
@@ -139,7 +140,7 @@
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.Font = new System.Drawing.Font("Rockwell Extra Bold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button2.ForeColor = System.Drawing.Color.Pink;
-            this.button2.Location = new System.Drawing.Point(274, 555);
+            this.button2.Location = new System.Drawing.Point(274, 589);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(187, 65);
             this.button2.TabIndex = 7;
@@ -191,12 +192,26 @@
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Black;
+            this.button3.Font = new System.Drawing.Font("Rockwell", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button3.ForeColor = System.Drawing.Color.Pink;
+            this.button3.Location = new System.Drawing.Point(274, 545);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(187, 38);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "Need Help?";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Romero___Rymirox__Tic_Tac_Toe.Properties.Resources._1ccbae11952e748c403b5d98cdb07fab;
-            this.ClientSize = new System.Drawing.Size(723, 759);
+            this.ClientSize = new System.Drawing.Size(727, 763);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -239,5 +254,6 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
+        private Button button3;
     }
 }

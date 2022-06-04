@@ -118,13 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="STEP 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEP 2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step 2.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step 2.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STEP 1.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEP 1.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STEP 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEP 3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1ccbae11952e748c403b5d98cdb07fab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1ccbae11952e748c403b5d98cdb07fab.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step 1.4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step 1.4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STEP 1.2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEP 1.2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step 2.1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step 2.1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2022-06-04 233238" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2022-06-04 233238.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="R (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\R (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STEP 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEP 1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Step 1.3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Step 1.3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X-Shape-Free-PNG-Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X-Shape-Free-PNG-Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="R (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\R (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="STEP 4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STEP 4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

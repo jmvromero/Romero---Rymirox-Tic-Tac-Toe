@@ -363,7 +363,7 @@ namespace Romero___Rymirox__Tic_Tac_Toe
             if (draw1)
             {
                 MessageBox.Show("Draw");
-                
+                MessageBox.Show("Play Again");
             }
 
                 //patternsforwinning

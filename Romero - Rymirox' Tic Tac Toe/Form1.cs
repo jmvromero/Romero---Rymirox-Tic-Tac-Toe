@@ -24,5 +24,11 @@ namespace Romero___Rymirox__Tic_Tac_Toe
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            instructionscreen1 instructionscreen1 = new instructionscreen1();
+            instructionscreen1.Show();
+        }
     }
 }

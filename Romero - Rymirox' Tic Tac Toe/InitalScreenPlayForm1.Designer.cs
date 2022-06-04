@@ -175,6 +175,7 @@
             // txtbx2
             // 
             this.txtbx2.BackColor = System.Drawing.Color.Pink;
+            this.txtbx2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx2.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx2.Location = new System.Drawing.Point(292, 84);
             this.txtbx2.Name = "txtbx2";
@@ -185,6 +186,7 @@
             // txtbx3
             // 
             this.txtbx3.BackColor = System.Drawing.Color.Pink;
+            this.txtbx3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx3.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx3.Location = new System.Drawing.Point(464, 84);
             this.txtbx3.Name = "txtbx3";
@@ -195,6 +197,7 @@
             // txtbx4
             // 
             this.txtbx4.BackColor = System.Drawing.Color.Pink;
+            this.txtbx4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx4.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx4.Location = new System.Drawing.Point(116, 278);
             this.txtbx4.Name = "txtbx4";
@@ -205,6 +208,7 @@
             // txtbx5
             // 
             this.txtbx5.BackColor = System.Drawing.Color.Pink;
+            this.txtbx5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx5.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx5.Location = new System.Drawing.Point(292, 278);
             this.txtbx5.Name = "txtbx5";
@@ -215,6 +219,7 @@
             // txtbx6
             // 
             this.txtbx6.BackColor = System.Drawing.Color.Pink;
+            this.txtbx6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx6.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx6.Location = new System.Drawing.Point(464, 278);
             this.txtbx6.Name = "txtbx6";
@@ -225,6 +230,7 @@
             // txtbx7
             // 
             this.txtbx7.BackColor = System.Drawing.Color.Pink;
+            this.txtbx7.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx7.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx7.Location = new System.Drawing.Point(116, 473);
             this.txtbx7.Name = "txtbx7";
@@ -235,6 +241,7 @@
             // txtbx8
             // 
             this.txtbx8.BackColor = System.Drawing.Color.Pink;
+            this.txtbx8.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx8.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx8.Location = new System.Drawing.Point(292, 473);
             this.txtbx8.Name = "txtbx8";
@@ -245,6 +252,7 @@
             // txtbx9
             // 
             this.txtbx9.BackColor = System.Drawing.Color.Pink;
+            this.txtbx9.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtbx9.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtbx9.Location = new System.Drawing.Point(464, 473);
             this.txtbx9.Name = "txtbx9";

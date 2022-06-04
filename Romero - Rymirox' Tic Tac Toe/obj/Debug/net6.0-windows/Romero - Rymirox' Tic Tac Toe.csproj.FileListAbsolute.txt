@@ -18,3 +18,4 @@ C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic
 C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero - Rymirox' Tic Tac Toe.genruntimeconfig.cache
 C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero___Rymirox__Tic_Tac_Toe.InitalScreenPlayForm1.resources
 C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero___Rymirox__Tic_Tac_Toe.ContinueOptions.resources
+C:\Users\Romero\source\repos\Romero - Rymirox' Tic Tac Toe\Romero - Rymirox' Tic Tac Toe\obj\Debug\net6.0-windows\Romero___Rymirox__Tic_Tac_Toe.instructionscreen1.resources
