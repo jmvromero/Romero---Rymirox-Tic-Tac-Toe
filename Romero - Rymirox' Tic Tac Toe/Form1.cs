@@ -10,9 +10,9 @@ namespace Romero___Rymirox__Tic_Tac_Toe
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-
-            InitalScreenPlayForm1 initalScreenPlayForm1 = new InitalScreenPlayForm1();
-            initalScreenPlayForm1.Show();
+            continueoptions2 continueoptions2 = new continueoptions2();
+            continueoptions2.Show();
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -20,13 +20,9 @@ namespace Romero___Rymirox__Tic_Tac_Toe
             this.Close();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             instructionscreen1 instructionscreen1 = new instructionscreen1();
             instructionscreen1.Show();
         }

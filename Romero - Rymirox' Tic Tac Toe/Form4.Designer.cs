@@ -1,6 +1,6 @@
 ﻿namespace Romero___Rymirox__Tic_Tac_Toe
 {
-    partial class Form4
+    partial class guidelinesandfunctions1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
-            this.button1 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(guidelinesandfunctions1));
+            this.playnowbutton1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -39,17 +39,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // playnowbutton1
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.button1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(569, 21);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 35);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "Play Now!";
-            this.button1.UseVisualStyleBackColor = false;
+            this.playnowbutton1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.playnowbutton1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.playnowbutton1.ForeColor = System.Drawing.Color.White;
+            this.playnowbutton1.Location = new System.Drawing.Point(569, 21);
+            this.playnowbutton1.Name = "playnowbutton1";
+            this.playnowbutton1.Size = new System.Drawing.Size(133, 35);
+            this.playnowbutton1.TabIndex = 23;
+            this.playnowbutton1.Text = "Play Now!";
+            this.playnowbutton1.UseVisualStyleBackColor = false;
+            this.playnowbutton1.Click += new System.EventHandler(this.playnowbutton1_Click);
             // 
             // label1
             // 
@@ -107,7 +108,7 @@
             this.pictureBox2.TabIndex = 28;
             this.pictureBox2.TabStop = false;
             // 
-            // Form4
+            // guidelinesandfunctions1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -118,9 +119,10 @@
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.playnowbutton1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form4";
+            this.Name = "guidelinesandfunctions1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rymirox\' Tic Tac Toe";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -131,7 +133,7 @@
 
         #endregion
 
-        private Button button1;
+        private Button playnowbutton1;
         private Label label1;
         private Label label2;
         private PictureBox pictureBox1;

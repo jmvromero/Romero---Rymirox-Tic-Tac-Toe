@@ -10,25 +10,32 @@ using System.Windows.Forms;
 
 namespace Romero___Rymirox__Tic_Tac_Toe
 {
-    public partial class instructionscreen1 : Form
+    public partial class continueoptions2 : Form
     {
-        public instructionscreen1()
+        public continueoptions2()
         {
             InitializeComponent();
         }
 
-        private void skipbutton1_Click(object sender, EventArgs e)
+        private void playnowbutton2_Click(object sender, EventArgs e)
         {
             this.Hide();
             InitalScreenPlayForm1 initalScreenPlayForm1 = new InitalScreenPlayForm1();
             initalScreenPlayForm1.Show();
         }
 
-        private void nextbutton1_Click(object sender, EventArgs e)
+        private void instructions2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            guidelinesandfunctions1 guidelinesandfunctions1 = new guidelinesandfunctions1();
-            guidelinesandfunctions1.Show();
+            instructionscreen1 instructionscreen1 = new instructionscreen1();
+            instructionscreen1.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 form1 = new Form1();
+            form1.Show();   
         }
     }
 }

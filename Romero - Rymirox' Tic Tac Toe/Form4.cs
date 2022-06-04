@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Romero___Rymirox__Tic_Tac_Toe
 {
-    public partial class Form4 : Form
+    public partial class guidelinesandfunctions1 : Form
     {
-        public Form4()
+        public guidelinesandfunctions1()
         {
             InitializeComponent();
+        }
+
+        private void playnowbutton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            InitalScreenPlayForm1 initalScreenPlayForm1 = new InitalScreenPlayForm1();
+            initalScreenPlayForm1.Show();
         }
     }
 }

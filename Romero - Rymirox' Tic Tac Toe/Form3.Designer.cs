@@ -50,7 +50,7 @@
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.nextbutton1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -291,18 +291,18 @@
             this.pictureBox14.TabIndex = 20;
             this.pictureBox14.TabStop = false;
             // 
-            // button1
+            // nextbutton1
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.button1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(569, 62);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(133, 35);
-            this.button1.TabIndex = 21;
-            this.button1.Text = "Next";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.nextbutton1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.nextbutton1.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.nextbutton1.ForeColor = System.Drawing.Color.White;
+            this.nextbutton1.Location = new System.Drawing.Point(569, 62);
+            this.nextbutton1.Name = "nextbutton1";
+            this.nextbutton1.Size = new System.Drawing.Size(133, 35);
+            this.nextbutton1.TabIndex = 21;
+            this.nextbutton1.Text = "Next";
+            this.nextbutton1.UseVisualStyleBackColor = false;
+            this.nextbutton1.Click += new System.EventHandler(this.nextbutton1_Click);
             // 
             // instructionscreen1
             // 
@@ -310,7 +310,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Romero___Rymirox__Tic_Tac_Toe.Properties.Resources._1ccbae11952e748c403b5d98cdb07fab;
             this.ClientSize = new System.Drawing.Size(727, 763);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.nextbutton1);
             this.Controls.Add(this.pictureBox14);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.pictureBox12);
@@ -379,6 +379,6 @@
         private PictureBox pictureBox12;
         private PictureBox pictureBox13;
         private PictureBox pictureBox14;
-        private Button button1;
+        private Button nextbutton1;
     }
 }
