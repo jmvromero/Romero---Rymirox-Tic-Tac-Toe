@@ -93,6 +93,26 @@ namespace Romero___Rymirox__Tic_Tac_Toe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2022_06_04_234102 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2022-06-04 234102", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Screenshot_2022_06_04_234255 {
+            get {
+                object obj = ResourceManager.GetObject("Screenshot 2022-06-04 234255", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap STEP_1 {
             get {
                 object obj = ResourceManager.GetObject("STEP 1", resourceCulture);
