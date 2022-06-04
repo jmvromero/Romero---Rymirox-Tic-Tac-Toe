@@ -48,6 +48,9 @@
             this.txtbx8 = new System.Windows.Forms.TextBox();
             this.txtbx9 = new System.Windows.Forms.TextBox();
             this.results1 = new System.Windows.Forms.Button();
+            this.restart1 = new System.Windows.Forms.Button();
+            this.mainmenu1 = new System.Windows.Forms.Button();
+            this.labelofringame1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // B1
@@ -262,12 +265,53 @@
             this.results1.UseVisualStyleBackColor = false;
             this.results1.Click += new System.EventHandler(this.results1_Click);
             // 
+            // restart1
+            // 
+            this.restart1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.restart1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.restart1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.restart1.Location = new System.Drawing.Point(116, 692);
+            this.restart1.Name = "restart1";
+            this.restart1.Size = new System.Drawing.Size(140, 34);
+            this.restart1.TabIndex = 19;
+            this.restart1.Text = "Restart";
+            this.restart1.UseVisualStyleBackColor = false;
+            this.restart1.Click += new System.EventHandler(this.restart1_Click);
+            // 
+            // mainmenu1
+            // 
+            this.mainmenu1.BackColor = System.Drawing.Color.MediumSlateBlue;
+            this.mainmenu1.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.mainmenu1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.mainmenu1.Location = new System.Drawing.Point(464, 692);
+            this.mainmenu1.Name = "mainmenu1";
+            this.mainmenu1.Size = new System.Drawing.Size(140, 34);
+            this.mainmenu1.TabIndex = 20;
+            this.mainmenu1.Text = "Main Menu";
+            this.mainmenu1.UseVisualStyleBackColor = false;
+            this.mainmenu1.Click += new System.EventHandler(this.mainmenu1_Click);
+            // 
+            // labelofringame1
+            // 
+            this.labelofringame1.AutoSize = true;
+            this.labelofringame1.BackColor = System.Drawing.Color.Transparent;
+            this.labelofringame1.Font = new System.Drawing.Font("Cooper Black", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.labelofringame1.ForeColor = System.Drawing.Color.White;
+            this.labelofringame1.Location = new System.Drawing.Point(233, 30);
+            this.labelofringame1.Name = "labelofringame1";
+            this.labelofringame1.Size = new System.Drawing.Size(256, 26);
+            this.labelofringame1.TabIndex = 21;
+            this.labelofringame1.Text = "Rymirox\' Tic Tac Toe";
+            // 
             // InitalScreenPlayForm1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Romero___Rymirox__Tic_Tac_Toe.Properties.Resources._1ccbae11952e748c403b5d98cdb07fab;
             this.ClientSize = new System.Drawing.Size(727, 763);
+            this.Controls.Add(this.labelofringame1);
+            this.Controls.Add(this.mainmenu1);
+            this.Controls.Add(this.restart1);
             this.Controls.Add(this.results1);
             this.Controls.Add(this.txtbx9);
             this.Controls.Add(this.txtbx8);
@@ -319,5 +363,8 @@
         private TextBox txtbx8;
         private TextBox txtbx9;
         private Button results1;
+        private Button restart1;
+        private Button mainmenu1;
+        private Label labelofringame1;
     }
 }
