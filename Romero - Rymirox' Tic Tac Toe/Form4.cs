@@ -17,11 +17,19 @@ namespace Romero___Rymirox__Tic_Tac_Toe
             InitializeComponent();
         }
 
-        private void playnowbutton1_Click(object sender, EventArgs e)
+        private void nextbutton2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            InitalScreenPlayForm1 initalScreenPlayForm1 = new InitalScreenPlayForm1();
-            initalScreenPlayForm1.Show();
+            Form6 form6 = new Form6();
+            form6.Show();   
+        }
+
+        private void backbutton1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            instructionscreen1 instructionscreen1 = new instructionscreen1();
+            instructionscreen1.Show();
+            
         }
     }
 }
